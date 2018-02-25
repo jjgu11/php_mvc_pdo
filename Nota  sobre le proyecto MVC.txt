@@ -1,0 +1,37 @@
+
+
+MVC PHP
+
+Models:
+
+
+
+Controller:
+
+controller.php : Inicia una clase MvcController (tiene una funcion el cual llame o incluye a la plantilla template.php)	
+
+
+
+
+Views:
+
+modules: todos los menus. 
+template.php:  es llamada a travez del controlador
+
+
+
+Index.php: 
+
+llamamos al template.php con una peticion a travez del controlador creamos un objeto de la clase MvcController y llamamos a su metodo->plantilla()
+
+
+
+
+
+NOTAS:
+
+
+
+
+PDO: 
+
